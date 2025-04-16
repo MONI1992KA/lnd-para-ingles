@@ -1,0 +1,200 @@
+/* RESET & BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: #f1c40f;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HEADER */
+  header {
+    background-color: #1a1a1a;
+    color: #f1c40f;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  /* NAVIGATION */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    color: #cfc59d;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #f1c40f;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #1a1a1a;
+    color: #f1c40f;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer nav ul li a {
+    color: #f1c40f;
+    text-decoration: none;
+  }
+  
+  footer nav ul li a:hover {
+    color: #d5dbb7;
+  }
+  
+  /* IMAGES */
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .img2 {
+    width: 50%;
+  }
+  
+  /* MAIN DEFAULT */
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* MAIN - INICIO PERSONALIZADO */
+  main.inicio {
+    background-image: url('../images/sortilegio.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+  }
+  
+  .fondo-blur {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 12px;
+    color: #f1c40f;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  main.inicio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  main.inicio p {
+    font-size: 1.2rem;
+  }
+  
+  /* BLOG STYLES */
+  body.blog {
+    background-color: #2f2f2f;
+    color: #d3d3d3;
+  }
+  
+  article {
+    background-color: #333;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  article a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  article a:hover {
+    color: #afaf62;
+  }
+  
+  article p {
+    font-size: 20px;
+    color: #d3d3d3;
+  }
+  
+  /* PODCAST STYLES */
+  body.podcast {
+    background-color: #181414;
+    color: #f1c40f;
+    padding: 0 30px;
+  }
+  
+  audio {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    border: 2px solid #f1c40f;
+  }
+  
+  /* FEED */
+  .feed-subscribe {
+    margin-top: 20px;
+  }
+  
+  .feed-subscribe a {
+    display: inline-block;
+    background-color: #f8b400;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* RESPONSIVE NAV */
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+  }
+  
+  

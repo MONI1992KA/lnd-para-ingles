@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+ <head>
+  <title>Sortilegios-Wesley: blog y podcast</title>
+ </head>
+ <body>
+  <outline text="blog" title="Blog" type="rss" xmlUrl="https://moni1992ka.github.io/Sortilegios-Weasley/feed/rss.xml"
+   htmlUrl="https://moni1992ka.github.io/Sortilegios-Weasley/">
+   <outline text="blog" title="Teorías y Rumores sobre la Familia Weasley" type="rss" 
+   xmlUrl="https://moni1992ka.github.io/Sortilegios-Weasley/blog/posts/post1.html"/>
+   <outline text="blog" title="Curiosidades del Mundo Mágico" type="rss" 
+   xmlUrl="https://moni1992ka.github.io/Sortilegios-Weasley/blog/posts/post2.html"/>
+   <outline text="blog" title="Todo sobre la nueva serie de Harry Potter" type="rss" 
+   xmlUrl="https://moni1992ka.github.io/Sortilegios-Weasley/blog/posts/post3.html"/>
+  </outline>
+  <outline text="podcast" title="Podcast Beedle el Bardo" type="rss" xmlUrl="https://moni1992ka.github.io/Sortilegios-Weasley/feed/podcast.xml"
+   htmlUrl="https://moni1992ka.github.io/Sortilegios-Weasley/podcast/index.html">
+   <outline text="podcast" title="Episodio 1: El mago y el cazo saltarín" type="rss" 
+   xmlUrl="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3"/>
+   <outline text="podcast" title="Episodio 2: La fuente de la buena fortuna" type="rss" 
+   xmlUrl="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3"/>
+   <outline text="podcast" title="Episodio 3: El corazón peludo del brujo" type="rss" 
+   xmlUrl="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3"/>
+  </outline>
+ </body>
+</opml>
